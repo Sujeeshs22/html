@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab1</title>
+  </head>
+  <body style="text-align: center">
+    <form>
+      <!-- FORM -->
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter name"
+        maxlength="25"
+      /><br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        value="test@gmail.com"
+        autofocus
+      /><br /><br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        maxlength="6"
+      /><br /><br />
+      <!-- dropdown menu -->
+      <label for="category">Category:</label>
+      <select name="catgry" id="category">
+        <option value="student">student</option>
+        <option value="employee">employeee</option>
+        <option value="freelancer" selected>freelancer</option></select
+      ><br /><br />
+      <!-- eventDate -->
+      <label for="dob">Event date :</label>
+      <input type="date" name="dob" id="dob" /><br /><br />
+      <!-- ticket -->
+      <label for="ticket1">ticket 1</label>
+      <input type="radio" id="ticket1" value="ticket1" />
+      <label for="ticket2">ticket 2</label>
+      <input type="radio" id="ticket2" value="ticket2" checked />
+      <label for="ticket3">ticket 3</label>
+      <input type="radio" value="ticket3" />
+      <br /><br />
+      <!-- checkBox -->
+      <label for="chk">Online payment:</label>
+      <input type="checkbox" name="chk" id="chk" /><br /><br />
+      <!-- textField -->
+      <label for="notes">Notes:</label>
+      <textarea
+        id="notes"
+        rows="4"
+        cols="50"
+        placeholder="Enter text"
+        required
+      ></textarea
+      ><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
